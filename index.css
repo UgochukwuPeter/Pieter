@@ -327,7 +327,7 @@
 		margin-left: -0.5rem;
 
 	}
-	input[type=text], select, textarea{
+	input[type=email], select, textarea{
 		width: 100%;
 		padding: 0.5rem;
 		border: 1px solid #ccc;
@@ -385,7 +385,96 @@
 		}
 	}
 
+@media screen and (max-width: 480px){
+	.logo_flex img{
+		width: 50%;
+	}
+	.ham_flex{	
+		margin-top: 0.3rem;
+	}
+		.close_hide{
+		margin-left: 13rem;
+		margin-top: 0.8rem;
+	}
+	.over-content{
+		height: 100%;
+	}
+	.over-content ul{
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	#no_show{
+		display: none;
+	}
+	.contact_me{
+		width: 100%;
+	}
+	.service-session{
+		width: 100vw;
+		padding: 0.5rem;
+	}
+	.mySlides{
+		padding: 30px;
+		text-align: center;
+	}
+	.mySlides img{
+		align-items: center;
+	}
+	.mySlides h3{
+		color: hsl(228, 56%, 26%);
+		align-items: center;
+	}
+	.mySlides p{
+		font-size: 1rem;
+		text-align: center;
+	}
+	.prev, .next{
+		padding: 10px;
+	}
+	.learn{
+		width: 90%;
+		align-items: center;
+	}
+	.inner_port img{
+		width: 80vw;
+		align-items: center;
+		margin-left: -20px;
+	}
+	.inner_port h4{
+		text-align: center;
+		margin-left: -20px;
+	}
+	.inner_port p{
+		text-align: center;
+		margin-left: -20px;
+	} 
+	.move-me{
+		width: 80%;
+		align-items: center;
+		margin-left: 15px;
+	}
+	.break_me h4{
+		align-items: center;
+		text-align: center;
+		width: 70%;
+		margin-left: 40px;
+	}
+	.mobile_view{
+		width: 100%;
+		margin-left: 0;
+	}
+	.price .standard{
+		background: blue;
+		color: white;
+		font-size: 2.3rem;
+	}
+		.contact-container h3{
+		font-size: 2rem;
+		
+	}
+	
 
+}
 @media screen and (min-width: 768px){
 	.head-container{
 		width: 100vw;
